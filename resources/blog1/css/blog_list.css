@@ -1,0 +1,46 @@
+/* 这个文件中专门写和博客列表页相关的样式 */
+.blog{
+    width: 100%;
+    /* 高度如果不设置, 就取决于里面的内容高度的综合 */
+    padding: 20px;
+}
+
+.blog .title{
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+.blog .date{
+    text-align: center;
+    color: rgb(231, 24, 186);
+    padding: 10px 0;
+}
+
+.blog .desc{
+    text-indent: 2em;
+}
+
+.blog a{
+    /* 设置成块级元素，方便设置尺寸和边距 */
+    display: block;
+    width: 140px;
+    height: 40px;
+    margin: 10px auto;
+    border: 2px black solid;
+
+    color: black;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+
+    /* 过渡效果 */
+    transition: all 0.5s;
+}
+
+/* 伪类选择器 表示光标移动到元素上的效果 */
+.blog a:hover{
+    background: rgb(97, 84, 84);
+    color: #fff;
+}
