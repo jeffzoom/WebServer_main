@@ -1,0 +1,303 @@
+19:47:22 =>[info] create the 0th thread
+19:47:22 =>[info] create the 1th thread
+19:47:22 =>[info] create the 2th thread
+19:47:22 =>[info] create the 3th thread
+19:47:22 =>[info] create the 4th thread
+19:47:22 =>[info] create the 5th thread
+19:47:22 =>[info] create the 6th thread
+19:47:22 =>[info] create the 7th thread
+19:47:22 =>[info] Init
+19:47:52 =>[info] Read data
+19:47:52 =>[info] Read the data:
+GET /index.html HTTP/1.1
+Host: 192.168.18.138:10000
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+
+19:47:52 =>[info] Append, Add tasks to work queue
+19:47:52 =>[info] Process data
+19:47:52 =>[info] Process read
+19:47:52 =>[info] Get one http line: GET /index.html HTTP/1.1
+19:47:52 =>[info] Get one http line: Host: 192.168.18.138:10000
+19:47:52 =>[info] Get one http line: Connection: keep-alive
+19:47:52 =>[info] Get one http line: Upgrade-Insecure-Requests: 1
+19:47:52 =>[info] oop! unknow header: Upgrade-Insecure-Requests: 1
+19:47:52 =>[info] Get one http line: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+19:47:52 =>[info] oop! unknow header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+19:47:52 =>[info] Get one http line: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+19:47:52 =>[info] oop! unknow header: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+19:47:52 =>[info] Get one http line: Accept-Encoding: gzip, deflate
+19:47:52 =>[info] oop! unknow header: Accept-Encoding: gzip, deflate
+19:47:52 =>[info] Get one http line: Accept-Language: zh-CN,zh;q=0.9
+19:47:52 =>[info] oop! unknow header: Accept-Language: zh-CN,zh;q=0.9
+19:47:52 =>[info] Get one http line: 
+19:47:52 =>[info] Process write
+19:47:52 =>[info] Write data
+
+19:47:52 =>[info] Init
+19:47:52 =>[info] Read data
+19:47:52 =>[info] Read the data:
+GET /images/image1.jpg HTTP/1.1
+Host: 192.168.18.138:10000
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Referer: http://192.168.18.138:10000/index.html
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+
+19:47:52 =>[info] Append, Add tasks to work queue
+19:47:52 =>[info] Process data
+19:47:52 =>[info] Process read
+19:47:52 =>[info] Get one http line: GET /images/image1.jpg HTTP/1.1
+19:47:52 =>[info] Get one http line: Host: 192.168.18.138:10000
+19:47:52 =>[info] Get one http line: Connection: keep-alive
+19:47:52 =>[info] Get one http line: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+19:47:52 =>[info] oop! unknow header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+19:47:52 =>[info] Get one http line: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+19:47:52 =>[info] oop! unknow header: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+19:47:52 =>[info] Get one http line: Referer: http://192.168.18.138:10000/index.html
+19:47:52 =>[info] oop! unknow header: Referer: http://192.168.18.138:10000/index.html
+19:47:52 =>[info] Get one http line: Accept-Encoding: gzip, deflate
+19:47:52 =>[info] oop! unknow header: Accept-Encoding: gzip, deflate
+19:47:52 =>[info] Get one http line: Accept-Language: zh-CN,zh;q=0.9
+19:47:52 =>[info] oop! unknow header: Accept-Language: zh-CN,zh;q=0.9
+19:47:52 =>[info] Get one http line: 
+19:47:52 =>[info] Process write
+19:47:52 =>[info] Write data
+
+19:47:52 =>[info] Read data
+19:47:52 =>[info] Read the data:
+GET /favicon.ico HTTP/1.1
+Host: 192.168.18.138:10000
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Referer: http://192.168.18.138:10000/index.html
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+
+19:47:52 =>[info] Append, Add tasks to work queue
+19:47:52 =>[info] Process data
+19:47:52 =>[info] Process read
+19:47:52 =>[info] Get one http line: GET /favicon.ico HTTP/1.1
+19:47:52 =>[info] Get one http line: Host: 192.168.18.138:10000
+19:47:52 =>[info] Get one http line: Connection: keep-alive
+19:47:52 =>[info] Get one http line: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+19:47:52 =>[info] oop! unknow header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+19:47:52 =>[info] Get one http line: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+19:47:52 =>[info] oop! unknow header: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+19:47:52 =>[info] Get one http line: Referer: http://192.168.18.138:10000/index.html
+19:47:52 =>[info] oop! unknow header: Referer: http://192.168.18.138:10000/index.html
+19:47:52 =>[info] Get one http line: Accept-Encoding: gzip, deflate
+19:47:52 =>[info] oop! unknow header: Accept-Encoding: gzip, deflate
+19:47:52 =>[info] Get one http line: Accept-Language: zh-CN,zh;q=0.9
+19:47:52 =>[info] oop! unknow header: Accept-Language: zh-CN,zh;q=0.9
+19:47:52 =>[info] Get one http line: 
+19:47:52 =>[info] Process write
+19:47:52 =>[info] Write data
+
+19:47:52 =>[info] Read data
+19:47:56 =>[info] Read the data:
+GET /index2.html HTTP/1.1
+Host: 192.168.18.138:10000
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+
+19:47:56 =>[info] Append, Add tasks to work queue
+19:47:56 =>[info] Process data
+19:47:56 =>[info] Process read
+19:47:56 =>[info] Get one http line: GET /index2.html HTTP/1.1
+19:47:56 =>[info] Get one http line: Host: 192.168.18.138:10000
+19:47:56 =>[info] Get one http line: Connection: keep-alive
+19:47:56 =>[info] Get one http line: Upgrade-Insecure-Requests: 1
+19:47:56 =>[info] oop! unknow header: Upgrade-Insecure-Requests: 1
+19:47:56 =>[info] Get one http line: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+19:47:56 =>[info] oop! unknow header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+19:47:56 =>[info] Get one http line: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+19:47:56 =>[info] oop! unknow header: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+19:47:56 =>[info] Get one http line: Accept-Encoding: gzip, deflate
+19:47:56 =>[info] oop! unknow header: Accept-Encoding: gzip, deflate
+19:47:56 =>[info] Get one http line: Accept-Language: zh-CN,zh;q=0.9
+19:47:56 =>[info] oop! unknow header: Accept-Language: zh-CN,zh;q=0.9
+19:47:56 =>[info] Get one http line: 
+19:47:56 =>[info] Process write
+19:47:56 =>[info] Write data
+
+19:47:56 =>[info] Read data
+19:47:56 =>[info] Read the data:
+GET /images/image3.jpg HTTP/1.1
+Host: 192.168.18.138:10000
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Referer: http://192.168.18.138:10000/index2.html
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+
+19:47:56 =>[info] Append, Add tasks to work queue
+19:47:56 =>[info] Process data
+19:47:56 =>[info] Process read
+19:47:56 =>[info] Get one http line: GET /images/image3.jpg HTTP/1.1
+19:47:56 =>[info] Get one http line: Host: 192.168.18.138:10000
+19:47:56 =>[info] Get one http line: Connection: keep-alive
+19:47:56 =>[info] Get one http line: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+19:47:56 =>[info] oop! unknow header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+19:47:56 =>[info] Get one http line: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+19:47:56 =>[info] oop! unknow header: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+19:47:56 =>[info] Get one http line: Referer: http://192.168.18.138:10000/index2.html
+19:47:56 =>[info] oop! unknow header: Referer: http://192.168.18.138:10000/index2.html
+19:47:56 =>[info] Get one http line: Accept-Encoding: gzip, deflate
+19:47:56 =>[info] oop! unknow header: Accept-Encoding: gzip, deflate
+19:47:56 =>[info] Get one http line: Accept-Language: zh-CN,zh;q=0.9
+19:47:56 =>[info] oop! unknow header: Accept-Language: zh-CN,zh;q=0.9
+19:47:56 =>[info] Get one http line: 
+19:47:56 =>[info] Process write
+19:47:56 =>[info] Write data
+
+19:47:56 =>[info] Write data
+
+19:47:56 =>[info] Write data
+
+19:47:56 =>[info] Write data
+
+19:47:56 =>[info] Write data
+
+19:47:56 =>[info] Write data
+
+19:47:56 =>[info] Write data
+
+19:47:56 =>[info] Write data
+
+19:47:56 =>[info] Write data
+
+19:47:56 =>[info] Write data
+
+19:47:56 =>[info] Write data
+
+19:47:56 =>[info] Write data
+
+19:47:56 =>[info] Write data
+
+19:47:56 =>[info] Write data
+
+19:47:56 =>[info] Write data
+
+19:47:56 =>[info] Write data
+
+19:47:56 =>[info] Write data
+
+19:47:56 =>[info] Write data
+
+19:47:56 =>[info] Read data
+19:48:2 =>[info] Read the data:
+GET /index3.html HTTP/1.1
+Host: 192.168.18.138:10000
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+
+19:48:2 =>[info] Append, Add tasks to work queue
+19:48:2 =>[info] Process data
+19:48:2 =>[info] Process read
+19:48:2 =>[info] Get one http line: GET /index3.html HTTP/1.1
+19:48:2 =>[info] Get one http line: Host: 192.168.18.138:10000
+19:48:2 =>[info] Get one http line: Connection: keep-alive
+19:48:2 =>[info] Get one http line: Upgrade-Insecure-Requests: 1
+19:48:2 =>[info] oop! unknow header: Upgrade-Insecure-Requests: 1
+19:48:2 =>[info] Get one http line: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+19:48:2 =>[info] oop! unknow header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+19:48:2 =>[info] Get one http line: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+19:48:2 =>[info] oop! unknow header: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+19:48:2 =>[info] Get one http line: Accept-Encoding: gzip, deflate
+19:48:2 =>[info] oop! unknow header: Accept-Encoding: gzip, deflate
+19:48:2 =>[info] Get one http line: Accept-Language: zh-CN,zh;q=0.9
+19:48:2 =>[info] oop! unknow header: Accept-Language: zh-CN,zh;q=0.9
+19:48:2 =>[info] Get one http line: 
+19:48:2 =>[info] Process write
+19:48:2 =>[info] Write data
+
+19:48:2 =>[info] Read data
+19:48:2 =>[info] Read the data:
+GET /images/image1.jpg HTTP/1.1
+Host: 192.168.18.138:10000
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Referer: http://192.168.18.138:10000/index3.html
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+
+19:48:2 =>[info] Append, Add tasks to work queue
+19:48:2 =>[info] Process data
+19:48:2 =>[info] Process read
+19:48:2 =>[info] Get one http line: GET /images/image1.jpg HTTP/1.1
+19:48:2 =>[info] Get one http line: Host: 192.168.18.138:10000
+19:48:2 =>[info] Get one http line: Connection: keep-alive
+19:48:2 =>[info] Get one http line: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+19:48:2 =>[info] oop! unknow header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+19:48:2 =>[info] Get one http line: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+19:48:2 =>[info] oop! unknow header: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+19:48:2 =>[info] Get one http line: Referer: http://192.168.18.138:10000/index3.html
+19:48:2 =>[info] oop! unknow header: Referer: http://192.168.18.138:10000/index3.html
+19:48:2 =>[info] Get one http line: Accept-Encoding: gzip, deflate
+19:48:2 =>[info] oop! unknow header: Accept-Encoding: gzip, deflate
+19:48:2 =>[info] Get one http line: Accept-Language: zh-CN,zh;q=0.9
+19:48:2 =>[info] oop! unknow header: Accept-Language: zh-CN,zh;q=0.9
+19:48:2 =>[info] Get one http line: 
+19:48:2 =>[info] Process write
+19:48:2 =>[info] Write data
+
+19:48:2 =>[info] Read data
+19:48:7 =>[info] Read the data:
+GET /index2.html? HTTP/1.1
+Host: 192.168.18.138:10000
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://192.168.18.138:10000/index2.html
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+
+19:48:7 =>[info] Append, Add tasks to work queue
+19:48:7 =>[info] Process data
+19:48:7 =>[info] Process read
+19:48:7 =>[info] Get one http line: GET /index2.html? HTTP/1.1
+19:48:7 =>[info] Get one http line: Host: 192.168.18.138:10000
+19:48:7 =>[info] Get one http line: Connection: keep-alive
+19:48:7 =>[info] Get one http line: Upgrade-Insecure-Requests: 1
+19:48:7 =>[info] oop! unknow header: Upgrade-Insecure-Requests: 1
+19:48:7 =>[info] Get one http line: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+19:48:7 =>[info] oop! unknow header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+19:48:7 =>[info] Get one http line: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+19:48:7 =>[info] oop! unknow header: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+19:48:7 =>[info] Get one http line: Referer: http://192.168.18.138:10000/index2.html
+19:48:7 =>[info] oop! unknow header: Referer: http://192.168.18.138:10000/index2.html
+19:48:7 =>[info] Get one http line: Accept-Encoding: gzip, deflate
+19:48:7 =>[info] oop! unknow header: Accept-Encoding: gzip, deflate
+19:48:7 =>[info] Get one http line: Accept-Language: zh-CN,zh;q=0.9
+19:48:7 =>[info] oop! unknow header: Accept-Language: zh-CN,zh;q=0.9
+19:48:7 =>[info] Get one http line: 
+19:48:7 =>[info] Process write
+19:48:7 =>[info] Write data
+
